@@ -1,0 +1,64 @@
+#Type
+    {
+        color: blue;
+        background-color: yellowgreen;
+        display: inline;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-left: 50%;
+        padding: 10x 10x 10x 15;
+        border: 10px;
+        border-style: dashed;
+        border-color: black;
+    }
+#abc
+    {
+        color: aqua;
+        background-color: blanchedalmond;
+        height: 50px;
+        width: 40%;
+        margin: 30px 10px 0px 0px;
+        padding: 50px 5px 5px 5px;
+        overflow: hidden;
+    }
+#abd
+    {
+        color:grey;
+        background-color: red;
+        height: 50px;
+        width: 40%;
+        margin: 30px 10px 0px 0px;
+        padding: 50px 5px 5px 5px;
+        overflow: hidden;
+    }    
+#abe
+    {
+        color:grey;
+        background-color: blueviolet;
+        height: 50px;
+        width: 40%;
+        margin: 30px 10px 0px 0px;
+        padding: 50px 5px 5px 5px;
+        overflow: hidden;
+    }    
+#abf
+    {
+        color:grey;
+        background-color: greenyellow;
+        height: 50px;
+        width: 40%;
+        margin: 30px 10px 0px 0px;
+        padding: 50px 5px 5px 5px;
+        overflow: hidden;
+    }    
+#abg
+    {
+        color:grey;
+        background-color: darkmagenta;
+        height: 50px;
+        width: 40%;
+        margin: 30px 10px 0px 0px;
+        padding: 50px 5px 5px 5px;
+        overflow: hidden;
+    }    
+
