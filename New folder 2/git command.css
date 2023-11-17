@@ -3,62 +3,72 @@
         color: blue;
         background-color: yellowgreen;
         display: inline;
-        overflow: hidden;
-        margin-top: 10px;
-        margin-left: 50%;
-        padding: 10x 10x 10x 15;
-        border: 10px;
-        border-style: dashed;
-        border-color: black;
+        overflow:hidden;
+        margin:0px 50px 0px 500px;
+        border: 2px solid black ;
+        box-shadow: 100px 50px 50px black;
+        flex: 1;
+        
     }
 #abc
     {
         color: aqua;
         background-color: blanchedalmond;
+        font-style: italic;
         height: 50px;
         width: 40%;
+        font-size: 50px;
         margin: 30px 10px 0px 0px;
-        padding: 50px 5px 5px 5px;
+        padding: 50px 50px 70px 100px;
         overflow: hidden;
+        display: block;
     }
 #abd
     {
         color:grey;
-        background-color: red;
+        background-color: black;
+        font-style: italic;
         height: 50px;
         width: 40%;
+        font-size: 50px;
         margin: 30px 10px 0px 0px;
-        padding: 50px 5px 5px 5px;
+        padding: 50px 50px 70px 100px;
         overflow: hidden;
     }    
 #abe
     {
         color:grey;
         background-color: blueviolet;
+        font-style: italic;
+        font-size: 50px;
         height: 50px;
         width: 40%;
         margin: 30px 10px 0px 0px;
-        padding: 50px 5px 5px 5px;
+        padding: 50px 50px 70px 100px;
         overflow: hidden;
     }    
 #abf
     {
         color:grey;
         background-color: greenyellow;
+        font-size: 50px;
+        font-style: italic;
         height: 50px;
         width: 40%;
         margin: 30px 10px 0px 0px;
-        padding: 50px 5px 5px 5px;
+        padding: 50px 50px 70px 100px;
         overflow: hidden;
     }    
 #abg
     {
         color:grey;
         background-color: darkmagenta;
+        font-size: 50px;
+        font-style: italic;
         height: 50px;
         width: 40%;
         margin: 30px 10px 0px 0px;
-        padding: 50px 5px 5px 5px;
+        padding: 50px 50px 70px 100px;
         overflow: hidden;
     }    
 
