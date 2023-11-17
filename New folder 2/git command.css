@@ -10,11 +10,18 @@
         flex: 1;
         
     }
-#abc
+div
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+#Design1
     {
         color: aqua;
         background-color: blanchedalmond;
         font-style: italic;
+        text-align: center;
         height: 50px;
         width: 40%;
         font-size: 50px;
@@ -23,11 +30,12 @@
         overflow: hidden;
         display: block;
     }
-#abd
+#Design2
     {
         color:grey;
         background-color: black;
         font-style: italic;
+        text-align: center;
         height: 50px;
         width: 40%;
         font-size: 50px;
@@ -35,11 +43,12 @@
         padding: 50px 50px 70px 100px;
         overflow: hidden;
     }    
-#abe
+#Design3
     {
         color:grey;
         background-color: blueviolet;
         font-style: italic;
+        text-align: center;
         font-size: 50px;
         height: 50px;
         width: 40%;
@@ -47,28 +56,45 @@
         padding: 50px 50px 70px 100px;
         overflow: hidden;
     }    
-#abf
+#Design4
     {
         color:grey;
         background-color: greenyellow;
         font-size: 50px;
         font-style: italic;
+        text-align: center;
         height: 50px;
         width: 40%;
         margin: 30px 10px 0px 0px;
         padding: 50px 50px 70px 100px;
         overflow: hidden;
     }    
-#abg
+#Design5
     {
         color:grey;
         background-color: darkmagenta;
         font-size: 50px;
         font-style: italic;
+        text-align: center;
         height: 50px;
         width: 40%;
         margin: 30px 10px 0px 0px;
         padding: 50px 50px 70px 100px;
         overflow: hidden;
     }    
+#End
+    {
+       text-align: center;   
+       font-size: 100px;
+       color: chartreuse;
+       background-color: blueviolet;
+       margin-left: 30%;
+       margin-right: 30%;
+    }
 
+img
+    {
+        display: block;
+        margin-left: 50%;
+        margin-right: 0%;
+    }
