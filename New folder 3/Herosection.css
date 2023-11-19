@@ -1,0 +1,28 @@
+#first{
+    margin: 30px 100px 0px 30px;
+    background-image: url(./globe@1x.webp);
+    height: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+#second{
+    margin-left: 50px;
+    color: green;
+    text-align: left;
+    position: absolute;
+}
+button{
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    height: 50%;
+    width: 50%;
+}
+button:hover{
+    color: black;
+    background-color: greenyellow;
+    cursor: pointer;
+    transition: 1s;
+}
