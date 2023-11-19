@@ -98,3 +98,16 @@ img
         margin-left: 50%;
         margin-right: 0%;
     }
+.name{
+        display: flex;
+        flex-direction: row;
+        
+    }
+#button{
+    background-color: whitesmoke;
+    color: blue;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+    border: 2px solid black;
+}
