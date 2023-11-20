@@ -1,0 +1,30 @@
+#button{
+    margin:20px ;
+    /* display: flex;
+    flex-direction: column; */
+    color: khaki;
+    background-color: black;
+    border-radius: 10px;
+    height: 50%;
+    width: 20%;
+}
+#button:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    transition: 1s;
+}
+#image{
+    height: 50%;
+}
+/* image{
+    background-image: url(./globe@1x.webp);
+} */
+#Div{
+    width: 50%;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: greenyellow;
+}

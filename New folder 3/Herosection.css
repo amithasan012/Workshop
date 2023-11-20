@@ -2,7 +2,7 @@
     background-color: blanchedalmond;
 }
 #first{
-    margin: 30px 130px 0px 130px;
+    margin: 30px 130px 0px 150px;
     background-image: url(./globe@1x.webp);
     background-color: white;
     height: 50%;
@@ -15,10 +15,12 @@
 }
 #second{
     background-color: whitesmoke;
+    margin-top: 10px;
     margin-left: 50px;
     color: green;
-    text-align: left;
+    text-align: center;
     position: absolute;
+    width: 40%;
 }
 button{
     color: white;
@@ -34,8 +36,9 @@ button:hover{
     transition: 1s;
 }
 #third{
-    margin: 10px 130px 0px 180px;
+    margin: 30px 130px 0px 150px;
     background-image:url(./61f022a2aad16bd7fdd13bc6_Art\ Logo\ Design.jpeg) ;
+    background-color: gray;
     height: 50%;
     background-position: left;
     background-repeat: no-repeat;
@@ -49,6 +52,23 @@ button:hover{
     margin-top: 20px;
     margin-left:70%;
     color: green;
-    text-align: left;
+    text-align: center;
     position: absolute;
+}
+#fifth{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    
+}
+#image{
+    margin-top: 10px;
+    margin-left: 30%;
+    height: 40%;
+    width: 40%;
+    
 }
