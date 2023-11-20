@@ -72,3 +72,68 @@ button:hover{
     width: 40%;
     
 }
+#button1{
+    margin: 20px 20px 20px 20px;
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+    color: whitesmoke;
+    background-color: gray;
+}
+#button1:hover{
+    color: black;
+    background-color: whitesmoke;
+    cursor: pointer;
+    transition: 1s;
+}
+#button2{
+    margin: 20px 20px 20px 20px;
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+    color: red;
+    background-color: azure;
+}
+#button2:hover{
+    color: yellow;
+    background-color: rebeccapurple;
+    cursor: pointer;
+    transition: 1s;
+}
+#button3{
+    margin: 20px 20px 20px 20px;
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+    color: yellow;
+    background-color: rebeccapurple;
+}
+#button3:hover{
+    color: black;
+    background-color:gold;
+    cursor: pointer;
+    transition: 1s;
+}
+#button4{
+    margin: 20px 20px 20px 20px;
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    background-color:gold;
+}
+#button4:hover{
+    color: gold;
+    background-color:blueviolet;
+    cursor: pointer;
+    transition: 1s;
+}
+#button5{
+    margin: 20px 20px 20px 20px;
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+    color: slategray;
+    background-color: oldlace;
+}
+#button5:hover{
+    color: black;
+    background-color:snow;
+    cursor: pointer;
+    transition: 1s;
+}
