@@ -1,13 +1,20 @@
+#body{
+    background-color: blanchedalmond;
+}
 #first{
-    margin: 30px 100px 0px 30px;
+    margin: 30px 130px 0px 130px;
     background-image: url(./globe@1x.webp);
+    background-color: white;
     height: 50%;
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 #second{
+    background-color: whitesmoke;
     margin-left: 50px;
     color: green;
     text-align: left;
@@ -25,4 +32,23 @@ button:hover{
     background-color: greenyellow;
     cursor: pointer;
     transition: 1s;
+}
+#third{
+    margin: 10px 130px 0px 180px;
+    background-image:url(./61f022a2aad16bd7fdd13bc6_Art\ Logo\ Design.jpeg) ;
+    height: 50%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+#fourth{
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-left:70%;
+    color: green;
+    text-align: left;
+    position: absolute;
 }
