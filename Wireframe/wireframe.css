@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: grey;
+}
+#navbar > ul{
+    display: flex;
+    justify-content: space-around;
+}
+#navbar > ul >li{
+    background-color: white;
+    height:20px;
+    width: 50px;
+    margin: 5px 0px;
+    display: inline;
+}
+.content-heading{
+    background-color: grey;
+    margin: 50px 30%;
+    height: 30px;
+    width: 100x;
+}
+.first-hero{
+    display: flex;
+    margin: 0 20px;
+    gap: 50px;
+}
+.image{
+    background-color: grey;
+    height: 200px;
+    width: 50%;
+}
+.text{
+    width: 50%;
+}
+.text-heading{
+    background-color: grey;
+    height:25px;
+    width: 80%;
+    margin: 0;
+}
+.paragraph{
+    margin: 10px 0;
+    background-color: grey;
+    height:15px;
+    width: 60%
+}
+.second-hero{
+    margin: 0 30%;
+}
+#content-heading{
+    background-color: grey;
+    margin: 500px 30% 50px 30%;
+    height: 30px;
+    width: 100x;
+}
+.third-hero{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 20px;
+    gap: 50px;
+}
+.content-heading1{
+    background-color: grey;
+    margin: 200px 30% 20px 30%;
+    height: 30px;
+    width: 100x;
+}
+.paragraph1{
+    margin: 10px 23%;
+    background-color: grey;
+    height:15px;
+    width: 60%
+}
+footer{
+    margin: 150px 0 50px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    height: 500px;
+    padding-top: 50px;
+}
+.footerdiv{
+    margin: 0 auto;
+}
+.footerP{
+    background-color: grey;
+    height: 20px;
+    width: 200px;
+}
