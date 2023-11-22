@@ -19,9 +19,9 @@ body{
 #Firstdiv{
     display: flex;
     gap: 10px;
-    margin-top: 10px;
-    border-bottom: 1px solid black;
-    height: 200px;
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+    height: 250px;
 }
 #text{
     width: 50%;
@@ -30,22 +30,123 @@ body{
     background-color: grey;
     height: 140px;
     width: 50%; 
+    margin: 5px 30px;
 }
 .first-heading{
     background-color: grey;
-    height: 50px;
+    height: 40px;
     width: 80%;
-    margin: 5px 20px;
+    margin: 5px 20px 10px 10px;
+}
+.first-heading1{
+    background-color: grey;
+    height: 40px;
+    width: 80%;
+    margin: 5px 20px 20px 10px;
 }
 .second-heading{
     background-color: grey;
     height: 20px;
     width: 40%;
-    margin: 5px 0px 5px 50px;
+    margin: 10px 0px 10px 50px;
 }
 #button1{
     background-color: grey;
     height: 20px;
     width:10% ;
     margin: 5px 0px 5px 90px;
+}
+#Seconddiv{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+    height: 250p
+}
+#text1{
+    width: 50%;
+    margin-left: 0px;
+}
+#image1{
+    background-color: grey;
+    height: 140px;
+    width: 50%; 
+    margin: 5px 100px 90px 5px;
+}
+#navbar2{
+    background-color:white;
+}
+#navbar2>ul{
+    display: flex;
+    justify-content: space-around;
+}
+#navbar2>ul>li{
+    background-color: grey;
+    margin: 10px 0px 0px 10px;
+    height: 30px;
+    width: 60px;
+    display: inline;
+}
+#Thirddiv{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    margin:10px 0px;
+    gap: 10px;
+    height: 250px;
+}
+.Thirddivchild{
+     background-color: grey;
+     height:200px;
+     border: 1px solid grey;
+     margin: 25px 30% ;
+     width: 120px;
+}
+.heading1{
+    background-color: white;
+    width: 110px;
+    height: 20px;
+    margin: 20px 5px 10px 5px;
+}
+.heading2{
+    background-color: white;
+    width: 110px;
+    height: 20px;
+    margin: 0px 5px 10px 5px;
+}
+#heading3{
+    background-color: grey;
+    height: 40px;
+    width: 40%;
+    margin: 30px auto 10px auto;
+}
+#heading4{
+    background-color: grey;
+    height: 40px;
+    width: 40%;
+    margin: 5px auto 30px auto;
+}
+#div1{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-bottom: 1px solid grey;
+    margin:10px 0px;
+    gap: 10px;
+    height: 100px;
+}
+.div2{
+    background-color: white;
+    height:70px;
+    margin: 5px 30% ;
+    width: 120px;
+}
+.heading5{
+    background-color: grey;
+    width: 100px;
+    height: 10px;
+    margin: 10px 5px 5px 5px;
 }
