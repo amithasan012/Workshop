@@ -1,0 +1,235 @@
+#navbar1{
+    height: 100px;
+    background-color:whitesmoke;
+    max-width: 1400px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    -webkit-animation: random 5s infinite;
+    animation: random 5s infinite;
+}    
+@keyframes random{
+    15%{background-color: red;}
+    30%{background-color: yellow;}
+    45%{background-color: green;}
+    60%{background-color: blue;}
+    75%{background-color: purple;}
+    90%{background-color: goldenrod;}
+}    
+#navbar1>ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar1>ul>li{
+
+    height: 30px;
+    width: auto;
+    display: inline;
+    margin-top: 20px;
+    color: black;
+}
+#navbar1>ul>li:hover{
+    text-decoration: underline;
+    color: aqua;
+    cursor: grab;
+}
+#paragraph1{
+    font-weight: bold;
+    display: inline;
+
+}
+#div1{
+    height: 300px;
+    max-width: 1400px;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#image1{
+    margin: 0px 35%;
+}
+#div2{
+    height: 300px;
+    max-width: 1400px;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    border-bottom: 1px solid black;
+}
+#div3{
+    height: 300px;
+    width: 500px;
+    margin-top: 20px;
+}
+#div4{
+    height: 250px;
+    background-color: white;
+    width: auto;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+#navbar2{
+    height: 140px;
+    background-color:grey;
+    max-width: 1400px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#navbar2>ul{
+    display: flex;
+    justify-content: space-around;
+}
+#navbar2>ul>li{
+    height: 30px;
+    width: auto;
+    display: inline;
+    margin-top: 20px;
+    color: black;
+    
+}
+#navbar2>ul>li:hover{
+    text-decoration: underline;
+    color: aqua;
+    cursor: pointer;
+}
+.paragraph2{
+    margin-top: 40px;
+}
+#div5{
+    margin-top: 50px;
+    height: 300px;
+    max-width: 1400px;
+    margin-left: 50px;
+    background-image: url(/25.jpeg);
+}
+#image2{
+    margin: 50px 0 0 500px;
+}
+#button1{
+    margin: 5px 0 0 900px;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    color: antiquewhite;
+    background-color: blueviolet;
+}
+#button1:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
+#button2{
+   border-radius: 10px;
+   height: 30px;
+   width: 50px;
+   color: antiquewhite;
+   background-color: blueviolet;
+}
+#button2:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
+#button3{
+   border-radius: 10px;
+   height: 30px;
+   width: 50px;
+   color: antiquewhite;
+   background-color: blueviolet;
+}
+#button3:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
+#div6{
+    max-width: 1400px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+#heading1{
+    font-weight: bold;
+}
+#div7{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1400px;
+    margin-left: 50px;
+    gap: 20px;
+    height: 300px;
+    
+}
+.childdiv1{
+    height: 250px;
+    width: 275px;
+    margin-left: 70px;
+    background-color:whitesmoke;
+    box-shadow: gray;
+}
+.childdiv1:hover{
+    cursor: pointer;
+    opacity: .8;
+    transition: 1s;
+}
+.childdiv2{
+    height: 250px;
+    width: 275px;
+    margin-left: 70px;
+    background-color:whitesmoke;
+}
+.childdiv2:hover{
+    cursor: pointer;
+    opacity: .8;
+    transition: 1s;
+}
+.childdiv3{
+    height: 250px;
+    width: 275px;
+    margin-left: 70px;
+    background-color:whitesmoke;
+}
+.childdiv3:hover{
+    cursor: pointer;
+    opacity: .8;
+    transition: 1s;
+}
+.heading9{
+    font-size: 15px;
+    color: grey;
+}
+#footer{
+    max-width: 1400px;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 50px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.div8{
+    height: 400px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+#paragraph3{
+    font-weight: bold;
+}
+#paragraph4{
+    color: white;
+    margin-left: 10px;
+    /* display: inline; */
+}
