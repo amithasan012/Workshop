@@ -2,10 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-::-webkit-scrollbar-body{
-    width: 20px;
-    background-color: red;
-}
+
 
 #navbar1{
     height: 100px;
@@ -140,7 +137,7 @@ body{
     height: 50px;
 }
 .trustedby{
-    color: grey;
+    color: white;
     display: inline;
     background-color:green;
     margin-left: 10px;
@@ -568,7 +565,7 @@ body{
     border-top: 1px solid gray;
     padding-top: 60px;
     gap: 5px;
-    background-color: white;
+    background-color: grey;
 }
 .div7{
     height:600px ;
