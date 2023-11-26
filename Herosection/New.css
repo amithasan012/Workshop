@@ -1,0 +1,23 @@
+body{
+    background-color: blueviolet;
+}
+#first{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+    justify-content: center;
+    margin: 20px 40px 0px 100px;
+}
+#second{
+    background-color: black;
+    height: 400px;
+    width: 200px;
+}
+#third{
+    background-color: blue;
+    height: 400px;
+    width: 200px;
+}

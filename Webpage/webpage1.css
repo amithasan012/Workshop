@@ -98,7 +98,7 @@ body{
 }
 #Firstdiv{
     background-color: #fff;
-    -webkit-animation: random 20s infinite;
+    -webkit-animation: random 20s linear;
     animation: random 20s infinite;
     display: flex;
     gap: 10px;
@@ -107,8 +107,8 @@ body{
     height: 500px;
 }
 @keyframes random{
-    20%{background-color: green;}
-    30%{background-color: yellow;}
+    30%{background-color: green;}
+    35%{background-color: yellow;}
     45%{background-color: green;}
     60%{background-color: blue;}
     75%{background-color: green;}
@@ -260,7 +260,7 @@ body{
 } */
 #Thirddivchild1{
     background-color: white;
-    background-image: url(/9.webp);
+    background-image: url(9.webp);
     height:349px;
     margin: 25px 0px 25px 0px;
     width: 255px;
@@ -273,7 +273,7 @@ body{
 }
 #Thirddivchild2{
     background-color: white;
-    background-image: url(/10.webp);
+    background-image: url(10.webp);
     height:349px;
     margin: 25px 0px 25px 0px;
     width: 255px;
@@ -286,7 +286,7 @@ body{
 }
 #Thirddivchild3{
     background-color: white;
-    background-image: url(/11.webp);
+    background-image: url(11.webp);
     height:349px;
     margin: 25px 0px 25px 0px;
     width: 255px;
@@ -299,7 +299,7 @@ body{
 }
 #Thirddivchild4{
     background-color: white;
-    background-image: url(/12.webp);
+    background-image: url(12.webp);
     height:349px;
     margin: 25px 0px 25px 0px;
     width: 255px;
@@ -312,7 +312,7 @@ body{
 }
 #Thirddivchild5{
     background-color: white;
-    background-image: url(/13.webp);
+    background-image: url(13.webp);
     height:349px;
     margin: 25px 0px 25px 0px;
     width: 255px;
@@ -501,7 +501,7 @@ body{
     flex-direction: row; */
     background-color: blue;
     margin: 40px 120px;
-    background-image: url(/14.webp);
+    background-image: url(14.webp);
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -535,7 +535,7 @@ body{
 #div6{
     height: 400px;
     margin: 40px 120px;
-    background-image: url(/18.webp);
+    background-image: url(18.webp);
     /* width: 1400px; */
     background-position: 1400px;
 }
