@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+#div1{
+    height: 490px;
+    width: 1440px;
+    background-image: url(./WhatsApp\ Image\ 2024-03-04\ at\ 14.22.01_b236b64e.jpg);
+    position: relative;
+
+}
+#div1::before{
+    position: absolute;
+}
+#navbar1::before{
+    position: absolute;
+    opacity: 0.1;
+}
+#navbar1{
+    height: 80px;
+    background-color: rgba(0, 46, 79, .1);
+    position: relative;
+    
+}    
+#navbar1>ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#navbar1>ul>li{
+    height: 30px;
+    width: auto;
+    display: inline;
+}
+#firstlist{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 22px 0px 5px 0px;
+    justify-content: center;
+    
+
+}
+#secondlist{
+    color: white;
+    font-size: 20px;
+    margin: 30px 0px 5px 5px;
+    
+}
+#thirdlist{
+    color: white;
+    font-size: 20px;
+    margin: 30px 0px 5px 0px;
+}
+#fourthlist{
+    color: white;
+    font-size: 20px;
+    margin: 30px 0px 5px 0px;
+}
+#fifthlist{
+    color: white;
+    font-size: 20px;
+    margin: 30px 0px 5px 0px;
+}
+#sixthlist{
+    font-size: 20px;
+    margin: 15px 0px 5px 500px;
+}
+#button1{
+    background-color: rgba(0, 46, 79, .1);
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-right: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+
+#secondlist:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#thirdlist:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#fourthlist:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#fifthlist:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#button1:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    
+}
+#div2{
+    height: 900px;
+    width: 700px;
+    background-color:#F3F3F3 ;
+    border-radius: 29px;
+    margin: 50px 370px 50px 370px;
+}
+#div3{
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+#div4{
+    margin: 30px 0px 0px 25px;
+}
+#image1{
+    margin-left: 12px;
+}
+#div5{
+    margin: 10px 0px 0px 5px;
+}
+#heading1{
+    margin: 30px 0px 0px 10px;
+    color: #363B3F;
+}
+#paragraph1{
+    margin: 5px 0px 0px 10px;
+    color: #636363;
+    font-size: small;
+    font-weight: bolder;
+}
+#heading2{
+    margin: 10px 0px 10px 42px;
+    color: #111314;
+}
+#paragraph2{
+    color: 636363;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 42px;
+}
+#paragraph3{
+    color: #798386;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 42px;
+}
+#image2{
+    margin-left: 42px;
+    margin-top: 15px;
+}
+#paragraph4{
+    color: #798386;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 42px;
+}
+#div6{
+    height: 336px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(./WhatsApp\ Image\ 2024-03-04\ at\ 14.22.04_caab50ba.jpg);
+}
+#div7{
+    height: 300px;
+    width: 500px;
+    margin:18px 0px 18px 220px ;
+}
+#heading3{
+    color: white;
+    margin-top: 100px;
+}
+#paragraph5{
+    color: white;
+}
+#div8{
+    height: 300px;
+    width: 500px;
+    margin:18px 220px 18px 0px ;
+}
+#paragraph6{
+    color: white;
+    margin-top: 150px;
+}

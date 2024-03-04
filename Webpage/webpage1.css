@@ -5,7 +5,7 @@ body{
 
 
 #navbar1{
-    height: 100px;
+    height: 80px;
     background-color:green;
     /* -webkit-animation: random 5s infinite;
     animation: random 5s infinite; */
@@ -97,23 +97,23 @@ body{
     
 }
 #Firstdiv{
-    background-color: #fff;
-    -webkit-animation: random 20s linear;
-    animation: random 20s infinite;
+    background-color: green;
+    /* -webkit-animation: random 20s linear;
+    animation: random 20s infinite; */
     display: flex;
     gap: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 500px;
 }
-@keyframes random{
+/* @keyframes random{
     30%{background-color: green;}
     35%{background-color: yellow;}
     45%{background-color: green;}
     60%{background-color: blue;}
     75%{background-color: green;}
     90%{background-color: blueviolet;}
-} 
+}  */
 #popular{
     margin-left: 200px;
     color: white;

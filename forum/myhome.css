@@ -1,0 +1,185 @@
+body{
+    max-width: 1440px;
+}
+#parentdiv{
+    height: 900px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+#childdiv1{
+    background-color: #B68C5A;
+    color: #A6ADBB;
+    height: 900px;
+    width: 250px;
+}
+#heading1{
+    margin-left: 20px;
+}
+#paragraph1{
+    color: white;
+    margin-left: 20px;
+}
+#paragraph1:hover{
+    cursor: pointer;
+}
+#paragraph2{
+    margin-left: 20px;
+}
+#paragraph2:hover{
+    cursor: pointer;
+}
+#paragraph3{
+    margin-left: 20px;
+}
+#paragraph3:hover{
+    cursor: pointer;
+}
+#paragraph4{
+    margin-left: 20px;
+}
+#paragraph4:hover{
+    cursor: pointer;
+}
+#paragraph5{
+    margin-left: 20px;
+}
+#paragraph5:hover{
+    cursor: pointer;
+}
+#underline{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#childdiv2{
+    height: 900px;
+    width: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#minidiv1{
+    height: 100px;
+    width: 800px;
+    margin-top: 65px;
+    color: #A6ADBB;
+}
+#heading2{
+    margin-left: 30px;
+}
+#minidiv2{
+    height: 170px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#griddiv1{
+    height: 120px;
+    width: 170px;
+    color: white;
+    background-color: #BB34F5;
+    text-align: center;
+}
+#paragraph6{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#paragraph7{
+    font-size: 15px;
+    margin-top: -20px;
+}
+#paragraph8{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#paragraph9{
+    font-size: 15px;
+    margin-top: -20px;
+}
+#paragraph10{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#paragraph11{
+    font-size: 15px;
+    margin-top: -20px;
+}
+#paragraph12{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#paragraph13{
+    font-size: 15px;
+    margin-top: -20px;
+}
+#griddiv2{
+    height: 120px;
+    width: 170px;
+    color: white;
+    background-color: #B68C5A;
+    text-align: center;
+}
+#griddiv3{
+    height: 120px;
+    width: 170px;
+    color: white;
+    background-color: #FE4880;
+    text-align: center;
+}
+#griddiv4{
+    height: 120px;
+    width: 170px;
+    color: white;
+    background-color: #6AAEFF;
+    text-align: center;
+}
+#minidiv3{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+#microdiv1{
+    height: 300px;
+    width: 368px;
+    background-color: #FFEDD5;
+    text-align: center;
+}
+#image1{
+    border-radius: 80px;
+    height: 130px;
+    margin-top: 50px;
+}
+#paragraph14{
+    color: #A6ADBB;
+    font-size: 30px;
+}
+#microdiv2{
+    height: 300px;
+    width: 368px;
+    text-align: center;
+    background-color: #FEF9C3;
+}
+#paragraph15{
+    color: #A6ADBB;
+    font-size: 30px;
+    margin-top: 60px;
+}
+#paragraph16{
+    color: #A6ADBB;
+    padding-right:40px;
+}
+#paragraph17{
+    color: #FFBB28;
+    padding-right: 17px;
+}
+#paragraph18{
+    color: #FF8042;
+    padding-right: 5px;
+}
