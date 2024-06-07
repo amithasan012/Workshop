@@ -15,7 +15,19 @@ mybutton.addEventListener("click",function addElement() {
     document.body.insertBefore(newDiv, currentDiv);
 
   })
+function myFunction(){
+  document.getElementById("mydiv").style.animation= 'mymove 1s';
+}
 
+  // $(function()
+  // {
+
+  //   $("a#toggle").click(function()
+  //   {
+  //     $("#contact").slideToggle();
+  //     return false;
+  //   });
+  // });
 
 // function name(){
 //     for(let i=1;i<=1000;i++){

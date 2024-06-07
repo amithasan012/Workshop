@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container_review{
+    width: 1440px;
+    margin: 10px auto;
+}
+.carousel_review{
+    height: 340px;
+    overflow: hidden;
+    
+}
+.slider_div_review{
+    height: 100%;
+    display: flex;
+    width: 300%;
+    transition: all 0.5s;
+}
+.slider_div_review section{
+    flex-basis: 100%;
+}
+.review{
+    height: 300px;
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    background-color: white;
+}
+.review1{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon{
+    position: absolute;
+    margin-left: 500px;
+}
+.icon i{
+    margin-left: 420px;
+    margin-top: 30px;
+    font-size: 60px;
+}
+.review2{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.review1 img{
+    margin-top: -60px;
+    height: 76px;
+    width: 76px;
+    margin-left: 50px;
+}
+.review1 h5{
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 490px;
+}
+.review1 h3{
+    font-family: 'Source Sans 3';
+    font-size: 22px;
+    font-weight: 600;
+    color: #1A202C;
+    margin-top: -60px;
+    margin-left: 150px;
+}
+.review1 h6{
+    font-size: 15px;
+    color: #1A202C;
+    font-weight: 300;
+    font-family: 'Source Sans 3';
+    margin-left: 151px;
+    margin-top: -20px;
+}
+.review1 p{
+    font-family: 'Source Sans 3';
+    font-size: 22px;
+    font-weight: 300;
+    color: #1A202C;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.review2 img{
+    margin-top: -60px;
+    height: 76px;
+    width: 76px;
+    margin-left: 50px;
+}
+.review2 h5{
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 490px;
+}
+.review2 h3{
+    font-family: 'Source Sans 3';
+    font-size: 22px;
+    font-weight: 600;
+    color: #1A202C;
+    margin-top: -60px;
+    margin-left: 150px;
+}
+.review2 h6{
+    font-size: 15px;
+    color: #1A202C;
+    font-weight: 300;
+    font-family: 'Source Sans 3';
+    margin-left: 151px;
+    margin-top: -20px;
+}
+.review2 p{
+    font-family: 'Source Sans 3';
+    font-size: 22px;
+    font-weight: 300;
+    color: #1A202C;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.review_button{
+    height: 100px;
+    margin: 0 auto 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.left_button_review{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+}
+.left_button_review:hover{
+    cursor: pointer;
+    background-color: #F7A582;
+    color: white;
+}
+.right_button_review{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+}
+.right_button_review:hover{
+    cursor: pointer;
+    background-color: #F7A582;
+    color: white;
+}
